@@ -1,0 +1,125 @@
+/* Flex */
+
+@mixin d-flex {
+    display: flex;
+}
+
+@mixin flex-row {
+    flex-direction: row;
+}
+
+@mixin flex-column {
+    flex-direction: column;
+}
+
+@mixin justify-content-center {
+    justify-content: center;
+}
+
+@mixin align-items-center {
+    align-items: center;
+}
+
+@mixin flex-fill {
+    flex: 1 1 auto;
+}
+
+/* padding */
+
+@mixin p-5 {
+    padding: 5px;
+}
+
+
+@mixin p-10 {
+    padding: 10px;
+}
+
+@mixin p-20 {
+    padding: 20px;
+}
+
+@mixin px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@mixin p-30 {
+    padding: 30px;
+}
+
+/* margin */
+
+@mixin m-10 {
+    margin: 10px;
+}
+
+@mixin mb-5 {
+    margin-bottom: 5px;
+}
+
+@mixin mb-10 {
+    margin-bottom: 10px;
+}
+
+@mixin mb-20 {
+    margin-bottom: 20px;
+}
+
+@mixin mb-70 {
+    margin-bottom: 70px;
+}
+
+@mixin m-20 {
+    margin: 20px;
+}
+
+@mixin m-30 {
+    margin: 30px;
+}
+
+@mixin mr-10 {
+    margin-right: 10px;
+}
+
+@mixin mr-20 {
+    margin-right: 20px;
+}
+
+@mixin ml-10 {
+    margin-left: 10px;
+}
+
+@mixin mt-5 {
+    margin-top: 5px;
+}
+
+
+// animations
+
+@mixin anim {
+    transition: all 0.3s ease-in-out;
+}
+
+// trait de separation
+
+@mixin separ {
+    content: '';
+    width: 90px;
+    height: 4px;
+    background: $colorWhite;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+// titre du header
+
+@mixin title {
+    font-size: 80px;
+    color: $colorWhite;
+    font-family: $fontText;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 7rem;
+}

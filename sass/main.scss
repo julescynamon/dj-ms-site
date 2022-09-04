@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+@import './utils/mixins';
+@import './utils/variables';
+@import './utils/animation';
+@import './utils/settings';
+@import './layout/header';
+@import './layout/footer';
+@import './pages/index';
+@import './pages/packs';
+@import './pages/contact';
+@import './pages/conditions';
+@import './pages/mentionslegales';
+@import './pages/page404';

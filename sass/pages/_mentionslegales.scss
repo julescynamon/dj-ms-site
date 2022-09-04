@@ -1,0 +1,59 @@
+.mentions {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586834733894) 0%, rgba(253, 203, 110, 0.8785889355742297) 79%), url(../../Publics/img/mentions.jpg);
+    background-size: cover;
+    background-position: center;
+
+    &__title {
+        @include title;
+    }
+
+    &__separ {
+        @include mb-70;
+
+        &--underline {
+            @include separ;
+        }
+    }
+}
+
+.description {
+    width: 100%;
+    margin: 3rem;
+    padding: 5rem;
+    color: #cdc7c7;
+    font-family: $fontTextVar;
+
+    &__title {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    &__para {
+        line-height: 1.5;
+    }
+
+    & h3 {
+        font-size: 20px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mentions {
+        height: 200px;
+
+        &__title {
+            font-size: 40px;
+            padding-top: 4rem;
+        }
+    }
+
+    .description {
+        padding: 2rem;
+        margin: 0;
+    }
+}
