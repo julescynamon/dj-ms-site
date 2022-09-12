@@ -870,6 +870,13 @@ a {
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .options > h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+}
 .contact__header {
   height: 500px;
   text-align: center;
