@@ -61,7 +61,15 @@
         @include align-items-center;
         @include justify-content-center;
         @include flex-column;
+
+        @media screen and (max-width: 768px) {
+
+            margin: 5rem;
+
+        }
+
     }
+
 
     &__inputs {
         @include d-flex;

@@ -943,6 +943,11 @@ a {
   justify-content: center;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .contact__form {
+    margin: 5rem;
+  }
+}
 .contact__inputs {
   display: flex;
   flex-direction: column;
