@@ -39,8 +39,6 @@ $('.autoplay').slick({
                 autoplay: true,
                 autoplayspeed: 3000,
                 dots: true,
-                pauseOnFocus: false,
-                pauseOnHover: false,
                 arrows: false,
                 swipeToSlide: true,
             }
@@ -53,8 +51,6 @@ $('.autoplay').slick({
                 autoplay: true,
                 autoplayspeed: 2000,
                 dots: true,
-                pauseOnFocus: false,
-                pauseOnHover: false,
                 arrows: false,
                 swipeToSlide: true,
             }
