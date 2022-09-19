@@ -237,13 +237,18 @@ a {
 .intro {
   width: 100%;
   height: 700px;
-  background-image: url("../../Publics/img/bg.jpg");
+  background-image: url("https://ik.imagekit.io/fz6feiqf1/bg_yKLLBf4bAv.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663518192625");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    background-image: url("https://ik.imagekit.io/fz6feiqf1/bg_yKLLBf4bAv.jpg?tr=w-780,h-700");
+  }
 }
 .intro__title {
   width: 90%;
@@ -650,9 +655,14 @@ a {
   height: 400px;
   text-align: center;
   font-size: 50px;
-  background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586835) 0%, rgba(253, 203, 110, 0.8785889356) 79%), url(../../Publics/img/paks.jpg);
+  background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586835) 0%, rgba(253, 203, 110, 0.8785889356) 79%), url(https://ik.imagekit.io/fz6feiqf1/paks_30IaL-Jjf.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663518199089);
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 768px) {
+  .packs__header {
+    background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586835) 0%, rgba(253, 203, 110, 0.8785889356) 79%), url(https://ik.imagekit.io/fz6feiqf1/paks_30IaL-Jjf.jpg?tr=w-600,h-600);
+  }
 }
 .packs__title {
   font-size: 80px;
@@ -881,7 +891,7 @@ a {
   height: 500px;
   text-align: center;
   font-size: 50px;
-  background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586835) 0%, rgba(253, 203, 110, 0.8785889356) 79%), url(../../Publics/img/contactBack.jpg);
+  background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586835) 0%, rgba(253, 203, 110, 0.8785889356) 79%), url(https://ik.imagekit.io/fz6feiqf1/contactBack_XgIuX7IJH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663518194384);
   background-size: cover;
   background-position: center;
 }
@@ -1112,9 +1122,14 @@ a {
   height: 300px;
   text-align: center;
   font-size: 50px;
-  background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586835) 0%, rgba(253, 203, 110, 0.8785889356) 79%), url(../../Publics/img/mentions.jpg);
+  background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586835) 0%, rgba(253, 203, 110, 0.8785889356) 79%), url(https://ik.imagekit.io/fz6feiqf1/mentions_uzuGGj_og.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663518195722);
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 768px) {
+  .mentions {
+    background-image: linear-gradient(27deg, rgba(0, 5, 1, 0.8029586835) 0%, rgba(253, 203, 110, 0.8785889356) 79%), url(https://ik.imagekit.io/fz6feiqf1/mentions_uzuGGj_og.jpg?tr=w-600,h-600);
+  }
 }
 .mentions__title {
   font-size: 80px;

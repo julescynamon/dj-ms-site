@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="page de contact pour DJ-Ms mariage oriental">
     <link rel="stylesheet" href="./Publics/main.Style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://kit.fontawesome.com/edaabb5290.js" crossorigin="anonymous"></script>
+    <script rel="preconnect" src="https://kit.fontawesome.com/edaabb5290.js" crossorigin="anonymous"></script>
 
     <title>DJ-MS</title>
 </head>
@@ -20,7 +18,7 @@
         <nav class="navbar" role="navigation">
             <div class="navbar__logo">
                 <a href="index.html">
-                    <img src="../Publics/img/logo.png" alt="logo">
+                    <img src="https://ik.imagekit.io/fz6feiqf1/logo_BElcUm6Ll.png??tr=w-45,h-45" alt="logo">
                 </a>
             </div>
             <ul class="navbar__links">
@@ -28,7 +26,7 @@
                 <li class="navbar__link third"><a href="./packs.html">Nos packs</a></li>
                 <li class="navbar__link four"><a href="./contact.html">Contact</a></li>
             </ul>
-            <button class="navbar__burger">
+            <button class="navbar__burger" name="bouton menu">
                 <span class="bar"></span>
             </button>
         </nav>
@@ -46,17 +44,17 @@
             </div>
             <div class='contact__container'>
                 <div class="contact__socials">
-                    <a href="https://www.facebook.com/djms.fr" data-aos="fade-right" data-aos-delay="100"><i
-                            class="fa-brands fa-facebook"></i></a>
+                    <a name="facebook" href="https://www.facebook.com/djms.fr" data-aos="fade-right"
+                        data-aos-delay="100"><i class="fa-brands fa-facebook"></i></a>
                     <p>Cliquez pour nous suivre sur Facebook</p>
-                    <a href="https://www.instagram.com/djms.france/" data-aos="fade-right" data-aos-delay="200"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <p>Cliquez pour nous suivre sur Instagram</p><a
+                    <a name="instagram" href="https://www.instagram.com/djms.france/" data-aos="fade-right"
+                        data-aos-delay="200"><i class="fa-brands fa-instagram"></i></a>
+                    <p>Cliquez pour nous suivre sur Instagram</p><a name="snapchat"
                         href="https://www.snapchat.com/add/djms.france?sender_web_id=3f811deb-b773-42f6-953b-ad9b4be3db54&device_type=desktop&is_copy_url=true"
                         data-aos="fade-right" data-aos-delay="300"><i class="fa-brands fa-snapchat"></i></a>
                     <p>Cliquez pour nous suivre sur Snapchat</p>
-                    <a href="https://api.whatsapp.com/send?phone=770102887&text=urlencodedtext" data-aos="fade-right"
-                        data-aos-delay="400"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a name="whatsapp" href="https://api.whatsapp.com/send?phone=770102887&text=urlencodedtext"
+                        data-aos="fade-right" data-aos-delay="400"><i class="fa-brands fa-whatsapp"></i></a>
                     <p>Contactez moi sur Whatsapp</p>
                 </div>
                 <div class='contact__form' data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="200"
@@ -75,7 +73,7 @@
                             <p id="messageErrorMsg"></p>
                         </div>
                         <div class='contact__submit'>
-                            <button id="btnsubmit" type="submit">Envoyer</button>
+                            <button id="btnsubmit" type="submit" name="submit">Envoyer</button>
                         </div>
                         <p id="succes-message"></p>
                         <p id="error-message"></p>
