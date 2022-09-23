@@ -300,7 +300,7 @@
 
 }
 
-.fa-quote-right {
+.bxs-quote-alt-right {
     font-size: 3rem;
     color: $colorText;
     margin-right: 1rem;
@@ -379,10 +379,10 @@
 
 }
 
-.fa-hand-holding-hand,
-.fa-palette,
-.fa-hands-asl-interpreting,
-.fa-list-check {
+.bxs-user-check,
+.bx-paint,
+.bx-timer,
+.bx-shield {
     font-size: 3rem;
     color: $colorText;
     margin-bottom: 1rem;
@@ -448,20 +448,20 @@
 
 }
 
-.fa-facebook,
-.fa-instagram,
-.fa-snapchat,
-.fa-whatsapp {
+.bxl-facebook,
+.bxl-instagram-alt,
+.bxl-snapchat,
+.bxl-whatsapp {
     font-size: 5rem;
     color: $colorText;
 
     @include p-10;
 }
 
-.fa-facebook:hover,
-.fa-instagram:hover,
-.fa-snapchat:hover,
-.fa-whatsapp:hover {
+.bxl-facebook:hover,
+.bxl-instagram-alt:hover,
+.bxl-snapchat:hover,
+.bxl-whatsapp:hover {
     color: $colorWhite;
     transform: scale(1.1);
     transition: all .3s ease-in-out;
