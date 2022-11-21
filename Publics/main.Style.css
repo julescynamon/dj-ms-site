@@ -1071,11 +1071,66 @@ a {
   .contact__inputs {
     flex-direction: column;
   }
+  .contact__inputs input {
+    margin-bottom: 20px;
+    width: 260px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset -3px -3px 7px #2e2f30, inset 3px 3px 7px #000000;
+    background-color: transparent;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+  }
   .contact__textarea {
     margin-bottom: 20px;
   }
+  .contact__textarea textarea {
+    resize: none;
+    width: 260px;
+    height: 150px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset -3px -3px 7px #2e2f30, inset 3px 3px 7px #000000;
+    background-color: transparent;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+  }
   .contact__submit {
     width: 100%;
+    box-shadow: -3px -3px 7px #2e2f30, 3px 3px 7px #000000;
+    background-color: #f8b73f;
+    transition: all 0.4s ease-in-out;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(30px);
+  }
+  .contact__submit:hover {
+    cursor: pointer;
+    background-color: orange;
+  }
+  .contact__submit:active, .contact__submit:focus {
+    transform: scale(0.9);
+  }
+  .contact__submit button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 900;
+    color: #2e2f30;
+    position: relative;
+    cursor: pointer;
   }
 }
 .conditions {

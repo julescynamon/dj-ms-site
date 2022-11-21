@@ -209,14 +209,77 @@
 
         &__inputs {
             @include flex-column;
+
+            & input {
+                @include mb-20;
+                width: 260px;
+                height: 50px;
+                border: none;
+                outline: none;
+                border-radius: 20px;
+                box-shadow: inset -3px -3px 7px $light-shadow,
+                    inset 3px 3px 7px $dark-shadow;
+                background-color: transparent;
+                padding: 20px;
+                margin: 15px;
+                color: white;
+            }
         }
 
         &__textarea {
             @include mb-20;
+
+            & textarea {
+                resize: none;
+                width: 260px;
+                height: 150px;
+                border: none;
+                outline: none;
+                border-radius: 20px;
+                box-shadow: inset -3px -3px 7px $light-shadow,
+                    inset 3px 3px 7px $dark-shadow;
+                background-color: transparent;
+                padding: 20px;
+                margin: 15px;
+                color: white;
+            }
         }
 
         &__submit {
             width: 100%;
+            box-shadow: -3px -3px 7px $light-shadow, 3px 3px 7px $dark-shadow;
+            background-color: $colorTextVar;
+            transition: all 0.4s ease-in-out;
+            margin-top: 20px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateZ(30px);
+
+            &:hover {
+                cursor: pointer;
+                background-color: orange;
+            }
+
+            &:active,
+            &:focus {
+                transform: scale(0.9);
+            }
+
+            & button {
+                width: 100%;
+                height: 100%;
+                border: none;
+                outline: none;
+                border-radius: 25px;
+                text-transform: uppercase;
+                background-color: transparent;
+                font-weight: 900;
+                color: $light-shadow;
+                position: relative;
+                cursor: pointer;
+            }
         }
     }
 }
