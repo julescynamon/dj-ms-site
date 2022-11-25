@@ -970,7 +970,7 @@ a {
   outline: none;
   border-radius: 20px;
   box-shadow: inset -3px -3px 7px #3c3d3e, inset -3px -3px 7px #000000;
-  -webkit-box-shadow: -3px -3px 7px #3c3d3e, 3px 3px 7px #000000;
+  -webkit-box-shadow: inset -3px -3px 7px #3c3d3e, inset 3px 3px 7px #000000;
   -webkit-appearance: none;
   background-color: transparent;
   padding: 20px;
@@ -988,7 +988,7 @@ a {
   outline: none;
   border-radius: 20px;
   box-shadow: inset -3px -3px 7px #3c3d3e, inset -3px -3px 7px #000000;
-  -webkit-box-shadow: -3px -3px 7px #3c3d3e, 3px 3px 7px #000000;
+  -webkit-box-shadow: inset -3px -3px 7px #3c3d3e, inset 3px 3px 7px #000000;
   -webkit-appearance: none;
   background-color: transparent;
   padding: 20px;
@@ -1085,7 +1085,7 @@ a {
     outline: none;
     border-radius: 20px;
     box-shadow: inset -3px -3px 7px #3c3d3e, inset 3px 3px 7px #000000;
-    -webkit-box-shadow: -3px -3px 7px #3c3d3e, 3px 3px 7px #000000;
+    -webkit-box-shadow: inset -3px -3px 7px #3c3d3e, inset 3px 3px 7px #000000;
     -webkit-appearance: none;
     background-color: transparent;
     padding: 20px;
@@ -1103,7 +1103,7 @@ a {
     outline: none;
     border-radius: 20px;
     box-shadow: inset -3px -3px 7px #3c3d3e, inset 3px 3px 7px #000000;
-    -webkit-box-shadow: -3px -3px 7px #3c3d3e, 3px 3px 7px #000000;
+    -webkit-box-shadow: inset -3px -3px 7px #3c3d3e, inset 3px 3px 7px #000000;
     -webkit-appearance: none;
     background-color: transparent;
     padding: 20px;
