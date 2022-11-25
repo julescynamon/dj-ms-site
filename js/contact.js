@@ -68,8 +68,7 @@ const form = document.getElementById("form");
     formBtn.addEventListener("click", (e) => {
         e.preventDefault();
         if (checkName() === false && checkEmail() === false && checkMessage() === false) {
-            formBtn.addEventListener("click", sendEmail());
-            
+            sendEmail();
+            form.reset();
         }
-        form.reset();
     });
